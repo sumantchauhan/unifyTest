@@ -1,0 +1,229 @@
+.homecontainer{
+  display: flex;
+}
+
+.leftLayout{
+  flex: 1;
+  background-color: black;
+  width: 60;
+  padding-left: 20px;
+}
+
+.rightLayout{
+  flex: 25;
+}
+
+.header{
+  height: 60px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightHearder{
+  flex: 1;
+  display: flex;
+  justify-content:flex-end;
+  margin-right: 50px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.search-box{
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-left: -10px;
+}
+
+.verticleLine{
+  color: gray;
+  font-size: 30px;
+  margin: 0px 10px;
+}
+
+.card1{
+  margin: 20px 40px;
+  height: 70px;
+  box-shadow: 1px 2px 4px rgba(2, 2, 5, 0.2);
+}
+
+.cardItems{
+  margin: 0px 10px;
+}
+
+.car1Item1,.car1Item2,.car1Item3{
+  background-color: black;
+  box-shadow: 1px 2px 4px rgba(2, 2, 5, 0.2);
+  text-align: center;
+  padding: 5px 25px;
+  color: white;
+  height: 55px;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+
+.car1Item2{
+  background-color: #66cc99;
+}
+
+.car1Item3{
+  background-color: #e64d00;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: -2px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.passportImg{
+  box-shadow: 1px 2px 4px rgba(2, 2, 5, 0.2);
+  padding: 20px 10px;
+}
+
+.subscription{
+  box-shadow: 1px 2px 4px rgba(2, 2, 5, 0.2);
+  height: 160px;
+  margin-left: 50px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.verticalHr{
+  border-right: 1px solid gray;
+  position: absolute;
+  height: 50px;
+  right: 50px;
+}
+
+.customerInfo{
+  box-shadow: 1px 2px 4px rgba(2, 2, 5, 0.2);
+  margin-left: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.passportValue{
+  border-bottom: 1px solid gray;
+}
+
+.customerInfoItem{
+  display: flex;justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+
+.custominput[type="text"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.custominput[type="text"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.itemName{
+  color: #0040ff
+}
+
+.secondaryText{
+  color: #8a8a5c;
+}
+
+.footer{
+  box-shadow: 1px 2px 4px rgba(20, 2, 5, 0.1);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #d6d6c2;
+  padding: 15px 20px;
+}
+
+.footerTimer1{
+  box-shadow: 1px 2px 4px rgba(2, 2, 5, 0.2);
+  padding: 3px 5px;
+  border-radius: 4px;
+  color: red;
+}
+
+.reject{
+  border: 1px solid gray;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.approve{
+  border: 1px solid black;
+  padding: 5px 10px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}

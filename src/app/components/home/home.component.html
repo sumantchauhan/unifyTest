@@ -1,0 +1,281 @@
+<div class="homecontainer">
+  <div class="leftLayout">
+    <div style="padding-top: 20px;">
+      <i class="fa fa-bars" style="font-size:40px;color:white;"></i>
+    </div>
+    <div style="padding-top: 20px;">
+      <i class="fa fa-user" style="font-size:40px;color:white;"></i>
+    </div>
+    <div style="padding-top: 20px;">
+      <i class="fa fa-th-large" style="font-size:40px;color:white;"></i>
+    </div>
+    <div style="padding-top: 20px;">
+      <i class="fa fa-first-order" style="font-size:40px;color:white;"></i>
+    </div>
+    <div style="padding-top: 20px;">
+      <i class="fa fa-question-circle" style="font-size:40px;color:white;"></i>
+    </div>
+  </div>
+  <div class="rightLayout">
+    <div class="header">
+      <div style="flex:1">
+        <img src="/assets/img/airtel.jpg" alt="airtel" height="50" width="100">
+      </div>
+      <div class="rightHearder">
+       <div>
+        <div class="form-group">
+          <input type="text" class="form-control search-box" placeholder="Search">
+        </div>
+       </div>
+       <div>
+         <span class="verticleLine">|</span>
+         <img src="/assets/img/logout.jpg" alt="logout" style="margin-top: -10px;" height="30" width="30">
+       </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="card1">
+        <div style="display: flex; margin: 0px 15px;">
+          <div style="flex: 1;">
+            <div style="display: flex;align-items: center;">
+              <div>
+                <i class="fa fa-user-circle" style="font-size:40px;"></i>
+              </div>
+              <div class="cardItems">
+                John Mark Smith
+                <div class="secondaryText" style="font-size: 14px;">
+                  Data Executive
+                </div>
+              </div>
+              <div class="cardItems car1Item1">
+                <div>Total</div>
+                <div>150</div>
+              </div>
+              <div class="cardItems car1Item2">
+                <div>Approved</div>
+                <div>95</div>
+              </div>
+              <div class="cardItems car1Item3">
+                <div>Rejected</div>
+                <div>55</div>
+              </div>
+            </div>
+          </div>
+          <div style="flex: 1;">
+            <div style="display: flex;align-items: center;justify-content:flex-end;">
+              <div class="cardItems car1Item1">
+                <div>Average Handling Time</div>
+                <div>00:15:00</div>
+              </div>
+              <div class="cardItems">
+                <div>Avilable
+                  <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+                <div>06:06</div>
+              </div>
+              <div class="cardItems">
+                <div>Break
+                  <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+                <div>00:06</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; margin: 0px 40px;justify-content: space-between;">
+      <div style="flex: 1;">
+        <div style="color: blueviolet;">
+          Subscriber Details
+        </div>
+        <div class="passportImg">
+          <div>
+            <div style="margin-bottom: 10px;">ID Image Front</div>
+            <img src="/assets/img/passport2.png" alt="passport" width="100%">
+          </div>
+          <div>
+            <div style="margin-bottom: 10px;">ID Image Back</div>
+            <img src="/assets/img/passport3.png" alt="passport" width="100%">
+          </div>
+        </div>
+      </div>
+      <div style="flex: 1;">
+        <div style="text-align: right;">
+          <i class="fa fa-history" style="font-size:25px;color: blue;margin-right: 10px;"></i>
+          <span style="color: blue;">Recent Cases</span>
+        </div>
+          <div class="subscription">
+            <span style="color: #1ad1ff;">Suscription Details</span>
+           <div style="display: flex;justify-content: space-around;margin-top: 10px;">
+            <div style="flex: 1;position: relative;">
+              <div class="verticalHr"></div>
+              <div class="secondaryText">
+                Connection Type
+              </div>
+              <div>
+                Prepaid
+              </div>
+            </div>
+            <div style="flex: 1;position: relative;">
+              <div class="verticalHr"></div>
+              <div class="secondaryText">
+                Customer Type
+              </div>
+              <div>
+                Individual
+              </div>
+            </div>
+            <div style="flex: 1;">
+              <div class="secondaryText">
+                New Mobile Number
+              </div>
+              <div>
+                9748473839
+              </div>
+            </div>
+           </div>
+           <div class="secondaryText" style="margin-top: 10px;">
+             Sim Serial Number (last 5 digit)
+           </div>
+           <div>
+             84748
+           </div>
+          </div>
+          <div class="customerInfo">
+            <div style="margin-bottom: 10px;color: #e64d00;">Customer Information</div>
+            <div class="customerInfoItem">
+              <div style="flex: 1;margin-right: 10px;">
+                <span class="itemName">Primary ID Type</span>
+                <div class="form-group">
+                  <input type="text" name="type" class="form-control custominput" [(ngModel)]="type">
+                </div>
+              </div>
+              <div style="flex: 1;margin-left: 10px;">
+                <span class="itemName">Primary ID Number</span>
+                <div class="form-group">
+                  <input type="text" name="passportNumber" class="form-control custominput" [(ngModel)]="passportNumber">
+                </div>
+              </div>
+            </div>
+            <div class="customerInfoItem">
+              <div style="flex: 1;margin-right: 10px;">
+                <span class="itemName">First Name</span>
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control custominput" [(ngModel)]="name">
+                </div>
+              </div>
+              <div style="flex: 1;margin-left: 10px;">
+                <span class="itemName">DOB</span>
+                <div class="form-group">
+                  <input type="text" name="dob" class="form-control custominput" [(ngModel)]="dob">
+                </div>
+              </div>
+            </div>
+            <div class="customerInfoItem">
+              <div style="flex: 1;margin-right: 10px;">
+                <span class="itemName">Primary ID Type</span>
+                <select class="form-control" name="dropdown-test">
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+              </div>
+              <div style="flex: 1;margin-left: 10px;">
+                <span class="itemName">Primary ID Number</span>
+                <div class="form-group">
+                  <input type="text" name="email" class="form-control custominput" [(ngModel)]="email">
+                </div>
+              </div>
+            </div>
+            <div class="customerInfoItem">
+              <div style="flex: 1;margin-right: 10px;">
+                <span class="itemName">Alternate Phone Number</span>
+                <div class="form-group">
+                  <input type="text" name="alternateNumber" class="form-control custominput" [(ngModel)]="alternateNumber">
+                </div>
+              </div>
+              <div style="flex: 1;margin-left: 10px;">
+                <span class="itemName">State</span>
+                <select class="form-control" name="dropdown-test">
+                  <option>Tamilnadu</option>
+                  <option>Karanataka</option>
+                  <option>Delhi</option>
+                </select>
+              </div>
+            </div>
+            <div class="customerInfoItem">
+              <div style="flex: 1;margin-right: 10px;">
+                <span class="itemName">District</span>
+                <select class="form-control" name="dropdown-test">
+                  <option>New Delhi</option>
+                  <option>West Delhi</option>
+                  <option>East Delhi</option>
+                </select>
+              </div>
+              <div style="flex: 1;margin-left: 10px;">
+                <span class="itemName">LGA</span>
+                <select class="form-control" name="dropdown-test">
+                  <option>Fedral</option>
+                  <option>Jsjhdsdd</option>
+                  <option>Xjdhuhs</option>
+                </select>
+              </div>
+            </div>
+            <div class="customerInfoItem">
+              <div style="flex: 1;margin-right: 10px;">
+                <span class="itemName">City</span>
+                <select class="form-control" name="dropdown-test">
+                  <option>New Delhi</option>
+                  <option>Bangalore</option>
+                  <option>Mumbai</option>
+                </select>
+              </div>
+              <div style="flex: 1;margin-left: 10px;">
+                <span class="itemName">Address line 1</span>
+                <input type="text" name="addressLine1" class="form-control custominput" [(ngModel)]="addressLine1">
+              </div>
+            </div>
+            <div style="display: flex;justify-content: space-around;">
+              <div style="flex: 1;margin-right: 10px;">
+                <span class="itemName">Address line 2</span>
+                <input type="text" name="addressLine2" class="form-control custominput" [(ngModel)]="addressLine2">
+              </div>
+              <div style="flex: 1;margin-left: 10px;">
+                <span class="itemName">Address line 3</span>
+                <input type="text" name="addressLine3" class="form-control custominput" [(ngModel)]="addressLine3">
+              </div>
+            </div>
+            <div style="display: flex;justify-content: space-around;margin-top: 10px;">
+              <div style="flex: 1;margin-right: 10px;">
+                <span class="itemName">Postal Code</span>
+                <input type="text" name="postalCode" class="form-control custominput" [(ngModel)]="postalCode">
+              </div>
+              <div style="flex: 1;margin-left: 10px;">
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div>
+        <span class="footerTimer1">03</span><span style="margin-right: 2px;margin-left: 3px;">:</span>
+        <span class="footerTimer1">00</span>
+      </div>
+      <div>
+        <span class="reject">
+          Reject
+        </span>
+        <span class="approve">
+          Approve
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
